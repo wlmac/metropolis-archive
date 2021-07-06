@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ static('css/style.css') }}">
+    {% block head %}
+    {% endblock %}
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:site_name" content="{{ settings.SITE_NAME }}">
+  </head>
+  <body>
+    {% block body %}
+    {% endblock %}
+  </body>
+</html>
